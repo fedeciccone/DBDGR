@@ -1,0 +1,78 @@
+<div class="container-fluid hh p-2 mb-5 text-white fw-bold">
+    <div class="container-fluid">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb  ">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a class="text-white" href="/supervivientes">Volver a Supervivientes</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="text-white" href="/Asesinos">Ver a los Asesinos</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3">
+                <img src="/images/Survivors/{{superviviente.banner}}" class="img-fluid" alt="">
+        </div>
+        <div class="col-9">
+            <table class="table-bordered WT">
+            <tbody>
+                <tr>
+                    <th class="nS">
+                        <div class="center">
+                            <div class="floatnone">
+                                <a href="/images/Survivors/{{superviviente.perk1Ico}}" class="image">
+                                    <img src="/images/Survivors/{{superviviente.perk1Ico}}" alt="" decoding="async" width="128" height="128">
+                                </a>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="nS">
+                        <p class="des">{{superviviente.perk1Nom}}</p>
+                    </th>
+                    <td class="nS">
+                        <p>{{superviviente.perk1Des}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="nS">
+                        <div class="center">
+                            <div class="floatnone">
+                                <a href="/images/Survivors/{{superviviente.perk2Ico}}" class="image">
+                                    <img src="/images/Survivors/{{superviviente.perk2Ico}}" alt="" decoding="async" width="128" height="128">
+                                </a>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="nS">
+                        <p class="des">{{superviviente.perk2Nom}}</p>
+                    </th>
+                    <td class="nS">
+                        <p>{{superviviente.perk2Des}}</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="nS">
+                        <div class="center">
+                            <div class="floatnone">
+                                <a href="/images/Survivors/{{superviviente.perk3Ico}}" class="image">
+                                    <img src="/images/Survivors/{{superviviente.perk3Ico}}" alt="" decoding="async" width="128" height="128">
+                                </a>
+                            </div>
+                        </div>
+                    </th>
+                    <th class="nS">
+                        <p class="des">{{superviviente.perk3Nom}}</p>
+                    </th>
+                    <td class="nS">
+                        <p>{{superviviente.perk3Des}}</p>
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+    </div>
+</div>

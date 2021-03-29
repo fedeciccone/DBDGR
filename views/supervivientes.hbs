@@ -1,0 +1,27 @@
+<div class="container-fluid hh p-2 mb-5 text-white fw-bold">
+    <div class="container-fluid">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb  ">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a class="text-white" href="/Asesinos">Ver a los Asesinos</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        {{#each supervivientes}}
+            <div class="col-2">
+            <a class="links" href="/supervivientes/{{id}}" title="Ver {{nombre}}">
+                <div class="card mb-4 card-prod shadow-sm bg-dark">
+                        <img  src="/images/Survivors/{{avatar}}" class="card-img" alt="">
+                    <div class="card-body">
+                        <p class="h4">{{nombre}}</p>
+                    </div>
+                </div>
+            </a>
+            </div>
+        {{/each}}
+    </div>
+</div>
